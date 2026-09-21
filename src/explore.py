@@ -36,6 +36,7 @@ for col in ["race", "medical_specialty", "diag_1", "diag_2", "diag_3"]:
 visites = df["patient_nbr"].value_counts()
 
 
+
 df = df.sort_values("encounter_id")
 df["premier_sejour"] = (~df.duplicated(subset="patient_nbr")).astype(int)
 df["decede"] = df["discharge_disposition_id"].isin([11, 13, 14, 19, 20, 21]).astype(int)
