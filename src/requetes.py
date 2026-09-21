@@ -5,6 +5,7 @@ import pandas as pd
 RACINE = Path(__file__).resolve().parent.parent
 con = sqlite3.connect(RACINE / "diabet" / "healthy.db")
 
+
 ETUDE = "f.decede = 0 AND f.premier_sejour = 1"
 
 R1 = f"""
