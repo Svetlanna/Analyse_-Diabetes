@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.idea/
+
+# donnees volumineuses ou regenerees par les scripts
+diabet/diabetic_data.csv
+diabet/diabetic_propre.csv
+diabet/healthy.db
