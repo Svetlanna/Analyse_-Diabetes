@@ -31,8 +31,6 @@ for col in ["race", "medical_specialty", "diag_1", "diag_2", "diag_3"]:
 
 
 
-
-
 visites = df["patient_nbr"].value_counts()
 
 
