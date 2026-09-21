@@ -77,6 +77,7 @@ fig.savefig(FIG / "g3_derive.png", dpi=150)
 plt.close(fig)
 
 
+
 # ---------- g4 : familles de maladie ----------
 d = pd.read_sql_query(R1, con).sort_values("taux_readmis")
 fig, ax = plt.subplots(figsize=(9, 5))
